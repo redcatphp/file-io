@@ -1,0 +1,13 @@
+{
+    "name": "redcatphp/file-io",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jo",
+            "email": "jo@surikat.pro"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
