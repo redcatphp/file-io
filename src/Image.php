@@ -201,7 +201,7 @@ abstract class Image {
 	 */
 	public static function returnBytes($val) {
 		$val = trim($val);
-		if (!$val) {
+		if (!$val || !is_numeric($val)) {
 			return 0;
 		}
 		$last = strtolower($val[strlen($val)-1]);
